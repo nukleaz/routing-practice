@@ -1,6 +1,7 @@
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import './app.css';
 import { MainPage, UserInfoPage, UsersPage } from './pages';
+import { PlayListsPage } from './pages/PlayListsPage/PlayListsPage';
 import { PlaylistInfoPage } from './pages/PlaylistInfoPage/PlaylistInfoPage';
 
 export function App() {
@@ -20,6 +21,7 @@ export function App() {
 						<Route path='/' element={<MainPage />} />
 						<Route path='/users' element={<UsersPage />} />
 						<Route path='/users/:userId' element={<UserInfoPage />} />
+						<Route path='/playlists' element={<PlayListsPage />} />
 						<Route
 							path='/playlists/:playlistId'
 							element={<PlaylistInfoPage />}
