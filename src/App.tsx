@@ -26,7 +26,6 @@ export function App() {
 							path='/playlists/:playlistId'
 							element={<PlaylistInfoPage />}
 						/>
-						{/* <Route /> */}
 					</Routes>
 				</main>
 			</div>

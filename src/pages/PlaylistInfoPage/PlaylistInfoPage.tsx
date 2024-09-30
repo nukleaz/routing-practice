@@ -18,8 +18,8 @@ export function PlaylistInfoPage() {
 						<p>Название: {playlist.name}</p>
 					</div>
 					<ul className='songs-list'>
-						{playlist.songs.map(song => (
-							<li className='song' key={song}>
+						{playlist.songs.map((song, index) => (
+							<li className='song' key={index}>
 								{song}
 							</li>
 						))}

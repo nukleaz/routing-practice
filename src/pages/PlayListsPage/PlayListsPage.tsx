@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { PLAYLISTS } from '../../data';
 import './PlayListsPage.css';
 
-export function PlayListsPage() {
+export const PlayListsPage = () => {
 	return (
 		<div className='PlayListsPage'>
 			<h2>PlayListsPage</h2>
@@ -18,4 +18,4 @@ export function PlayListsPage() {
 			</ul>
 		</div>
 	);
-}
+};
