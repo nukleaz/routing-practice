@@ -3,7 +3,7 @@ import { Link, useSearchParams } from 'react-router-dom';
 import { USERS } from '../../data';
 import './UsersPage.css';
 
-export function UsersPage() {
+export const UsersPage = () => {
 	const [searchParam, setSearchParam] = useSearchParams();
 
 	const handleSearchName = (event: ChangeEvent<HTMLInputElement>): void => {
@@ -35,4 +35,4 @@ export function UsersPage() {
 			</div>
 		</div>
 	);
-}
+};

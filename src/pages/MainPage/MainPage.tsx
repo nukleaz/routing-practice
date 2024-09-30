@@ -1,8 +1,8 @@
-import "./MainPage.css";
+import './MainPage.css';
 
-export function MainPage() {
+export const MainPage = () => {
 	return (
-		<div className="mainPage">
+		<div className='mainPage'>
 			<h2>MainPage</h2>
 
 			<p>
@@ -26,4 +26,4 @@ export function MainPage() {
 			</p>
 		</div>
 	);
-}
+};
