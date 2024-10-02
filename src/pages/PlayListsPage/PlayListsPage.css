@@ -4,6 +4,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	gap: 8px;
+	margin-bottom: 15px;
 }
 
 .playlists__label {

@@ -1,6 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
 import { PLAYLISTS } from '../../data';
-import './PlaylistInfoPage.css';
 
 export const PlaylistInfoPage = () => {
 	const { playlistId } = useParams();
