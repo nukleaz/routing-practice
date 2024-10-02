@@ -43,4 +43,16 @@ body {
 
 a {
 	text-decoration: none;
+	color: cornflowerblue;
+	cursor: pointer;
+}
+
+a:hover {
+	color: rgb(72, 111, 184);
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }

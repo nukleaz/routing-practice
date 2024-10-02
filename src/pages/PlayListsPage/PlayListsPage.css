@@ -1,0 +1,13 @@
+.inputs-wrapper {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 8px;
+	margin-bottom: 15px;
+}
+
+.playlists__label {
+	display: flex;
+	justify-content: space-between;
+}

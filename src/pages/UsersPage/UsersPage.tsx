@@ -26,12 +26,13 @@ export const UsersPage = () => {
 					введите имя{' '}
 					<input type='text' value={searchName} onChange={handleSearchName} />
 				</label>
-
-				{filteredUsers.map(({ id, fullName }) => (
-					<Link to={`/users/${id}`} key={id}>
-						{fullName}
-					</Link>
-				))}
+				<ul>
+					{filteredUsers.map(({ id, fullName }) => (
+						<li key={id}>
+							<Link to={`/users/${id}`}>{fullName}</Link>
+						</li>
+					))}
+				</ul>
 			</div>
 		</div>
 	);

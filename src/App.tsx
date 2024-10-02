@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
 import './app.css';
 import { MainPage, UserInfoPage, UsersPage } from './pages';
 import { PlayListsPage } from './pages/PlayListsPage/PlayListsPage';
@@ -10,10 +10,10 @@ export const App = () => {
 			<div className='header'>_</div>
 
 			<div className='section'>
-				<nav className='navMenu'>
-					<Link to={'/'}>Главная</Link>
-					<Link to={'/users'}>Пользователи</Link>
-					<Link to={'/playlists'}>Плейлисты</Link>
+				<nav className='nav'>
+					<NavLink to={'/'}>Главная</NavLink>
+					<NavLink to={'/users'}>Пользователи</NavLink>
+					<NavLink to={'/playlists'}>Плейлисты</NavLink>
 				</nav>
 
 				<main className='content'>
