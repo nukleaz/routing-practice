@@ -1,8 +1,8 @@
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { PLAYLISTS } from '../../data';
 import './PlaylistInfoPage.css';
 
-export function PlaylistInfoPage() {
+export const PlaylistInfoPage = () => {
 	const { playlistId } = useParams();
 	const playlist = PLAYLISTS[Number(playlistId)];
 
@@ -14,7 +14,9 @@ export function PlaylistInfoPage() {
 			) : (
 				<>
 					<div className='playlist-descr'>
-						<p>Жанр: {playlist.genre}</p>
+						<Link to={'/playlists'}>
+							<p>Жанр: {playlist.genre}</p>
+						</Link>
 						<p>Название: {playlist.name}</p>
 					</div>
 					<ul className='songs-list'>
@@ -28,4 +30,4 @@ export function PlaylistInfoPage() {
 			)}
 		</div>
 	);
-}
+};
