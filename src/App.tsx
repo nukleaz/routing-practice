@@ -4,7 +4,7 @@ import { MainPage, UserInfoPage, UsersPage } from './pages';
 import { PlayListsPage } from './pages/PlayListsPage/PlayListsPage';
 import { PlaylistInfoPage } from './pages/PlaylistInfoPage/PlaylistInfoPage';
 
-export function App() {
+export const App = () => {
 	return (
 		<BrowserRouter>
 			<div className='header'>_</div>
@@ -35,4 +35,4 @@ export function App() {
 			</div>
 		</BrowserRouter>
 	);
-}
+};
