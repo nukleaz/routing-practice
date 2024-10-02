@@ -2,7 +2,7 @@ import './MainPage.css';
 
 export const MainPage = () => {
 	return (
-		<div className='mainPage'>
+		<div className='main-page'>
 			<h2>MainPage</h2>
 
 			<p>

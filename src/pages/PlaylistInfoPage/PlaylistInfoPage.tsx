@@ -7,7 +7,7 @@ export const PlaylistInfoPage = () => {
 	const playlist = PLAYLISTS[Number(playlistId)];
 
 	return (
-		<div className='playlistInfoPage'>
+		<div className='playlist-page playlist'>
 			<h2>PlayListInfoPage</h2>
 			{playlist.songs.length === 0 ? (
 				<p>Плейлист пустой</p>

@@ -10,7 +10,7 @@ export const App = () => {
 			<div className='header'>_</div>
 
 			<div className='section'>
-				<nav className='navMenu'>
+				<nav className='nav'>
 					<Link to={'/'}>Главная</Link>
 					<Link to={'/users'}>Пользователи</Link>
 					<Link to={'/playlists'}>Плейлисты</Link>

@@ -36,10 +36,10 @@ export const PlayListsPage = () => {
 	);
 
 	return (
-		<div className='PlayListsPage'>
+		<div className='playlists-page playlists'>
 			<h2>PlayListsPage</h2>
 			<div className='inputs-wrapper'>
-				<label>
+				<label className='playlists__label'>
 					Введите жанр{' '}
 					<input
 						type='text'
@@ -48,7 +48,7 @@ export const PlayListsPage = () => {
 						onChange={handleSearchGenre}
 					/>
 				</label>
-				<label>
+				<label className='playlists__label'>
 					Введите название{' '}
 					<input
 						type='text'

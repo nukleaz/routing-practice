@@ -13,7 +13,7 @@ hr {
 }
 
 /* NavMenu */
-.navMenu {
+.nav {
 	width: 250px;
 	padding: 10px;
 	flex-shrink: 0;
@@ -23,18 +23,18 @@ hr {
 	border: 1px solid whitesmoke;
 }
 
-.navMenu a,
-.navMenu button {
+.nav a,
+.nav button {
 	text-align: left;
 	color: antiquewhite;
 }
 
-.navMenu a:hover,
-.navMenu button:hover {
+.nav a:hover,
+.nav button:hover {
 	color: rgb(185, 173, 156);
 }
 
-.navMenu a.active {
+.nav a.active {
 	text-decoration: underline;
 }
 
